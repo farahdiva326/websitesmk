@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700$display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+    --primary: #041e4e;
+    --light: #fff;
+    --warning: #f06804;
+}
+/***********************
+/* Custom CSS */
+/*************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #040f28;
+}
+a {
+    text-decoration: none!important;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+/***************************************
+#Header CSS
+***************************************/
+header {
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+}
+header .nav-item  .nav-link {
+    font-size: 14px;
+    color: var(--light);
+    font-weight: 600;
+    margin-left: 20px;
+}
+.navbar-toggler {
+    outline: none!important;
+    border: none!important;
+    color: var(--warning)!important;
+    box-shadow: none!important;
+    border-radius: none!important;
+}
+
+header .navbar-brand {
+    font-size: 18px;
+    color: var(--light);
+    font-weight: 600;
+    margin-left: 20px;
+}
+.navbar-nav .nav-item {
+    list-style: none;
+    display: inline-block;
+}
+.navbar-nav .nav-item a {
+    text-decoration: none;
+    /* color: #fff; */
+    font-size: 17px;
+    
+}
+.navbar-nav .nav-item a:hover{
+    /* color: blueviolet; */
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: blue;
+}
+           /* CSS HOME */
+/*********************************
+#hero section
+**********************************/
+.hero {
+    width: 100%;
+}
+.hero .carousel-item img {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero .carousel-item::before {
+    content: "";
+    background-color: #040f28;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .8;
+}
+.hero .carousel-container {
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 265px;
+}
+.hero .carousel-content-container {
+    text-align: center;
+    color: var(--light);
+}
+.hero .carousel-content-container h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+}
+.hero .carousel-content-container p {
+    width: 70%;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 0 auto 30px auto;
+}
+
+/**************************************
+About Sekolah
+****************************************/
+.mood .about-content-container {
+    text-align: center;
+    color: var(--light);
+}
+.mood .about-content-container h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+}
+.image {
+    float: right;
+    width: 300px;
+    height: 160px;
+    /* margin-left: 800px; */
+    border-radius: 5px;
+}
+.image1 {
+    float: right;
+    width: 300px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 800px;
+    border-radius: 5px;
+}
+.image2 {
+    float: right;
+    margin-top: 10px;
+    width: 300px;
+    height: 160px;
+    margin-left: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-t {
+    /* display: flex; */
+    /* position: absolute; */
+    width: 700px;
+    margin-left: 230px;
+
+}
+.card-header img {
+    width: 200px;
+    height: 200px;
+    margin-left: 235px;
+} 
+.card-title {
+    text-align: center;
+}
+.card-text {
+    font-family: Palatino Linotype;
+    text-align: center;
+}
+.card-tut {
+    float: left;
+    position: absolute;
+    width: 210px;
+    margin-top: -500px;
+    margin-left: 10px;
+}
+.as {
+    font-size: 20px;
+    display: inline;
+    margin-left: 30px;
+    font-family: 'Abril Fatface', cursive;
+}
+.card-g {
+    float: left;
+    /* position: absolute; */
+    height: 345px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #fff;
+    /* margin-top: -2px; */
+}
+.card-g img{
+    margin-left: 10px;
+    margin-top: -70px;
+    width: 200px;
+    height: 250px;
+}
+.card-pop {
+    font-family: Arial Black;
+    font-size: 15px;
+    margin-top: -10px;
+    text-align: center;
+}
+.ais {
+    font-family: Arial Black;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+.card-about {
+    /* position: absolute; */
+    /* float: inherit; */
+    background-color: #fff;
+    width: 700px;
+    /* margin-top: -100px; */
+    margin-left: 230px;
+    border-radius: 5px;
+}
+.card-about h4 {
+    font-family: Arial Black;
+    font-size: 20px;
+    text-align: center;
+}
+.card-about p {
+    font-family: Palatino Linotype;
+    text-align: center;
+}
+.poster-container img{
+    margin-top: 10%;
+    width: 100%;
+    height: 200px;
+    /* margin-left: 60px; */
+    /* border-radius: 10px; */
+}
+.pap p{
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+                  /* CSS JURUSAN */
+/*******************************************
+isi jurusan
+*********************************************/
+.badan1 {
+    display: flex;
+    flex-direction: column;
+    color: var(--light);
+}
+.judul-jurusan {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 100px;
+    color: #00bcd4;
+}
+.ayang {
+    width: 150px;
+    height: 150px;
+    margin-left: 135px;
+    margin-bottom: 30px;
+}
+.ayang1 {
+    width: 150px;
+    height: 150px;
+    margin-left: 145px;
+}
+.ayang2 {
+    width: 160px;
+    height: 160px;
+    margin-left: 130px;
+}
+.ayang3 {
+    width: 170px;
+    height: 170px;
+    margin-left: 135px;
+}
+.ayang4 {
+    width: 155px;
+    height: 155px;
+    margin-left: 135px;
+}
+.ayang5 {
+    width: 200px;
+    height: 200px;
+    margin-left: 110px;
+}
+.mam {
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: #00bcd4;
+}
+.alan:hover {
+    transition: transform 1s;
+    transform: scale(1.2);
+}
+.saya1 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.t1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.t2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+}
+.t3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.t4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.my1 {
+    margin-left: 500px;
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+.my2 {
+    margin-left: 500px;
+    margin-top: 95px;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+.my3 {
+    margin-left: 500px;
+    margin-top: 98px;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+.ya1 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+    margin-top: 10px;
+}
